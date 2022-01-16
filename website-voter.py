@@ -38,7 +38,7 @@ def delete():
 def executevote():
     for a in accounts:
         csrf = get_csrf()
-        payload = set_payload(a, accounts[a][0], csrf)
+        payload = set_payload(a, accounts[a], csrf)
         login(payload)
         vote(csrf)
         logout()
