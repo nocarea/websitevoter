@@ -7,6 +7,6 @@ The app can read and update the json DB
 It will interact with the site in order to vote for the website on multiple accounts.
 
 It's my first time using python and tkinter.
+Also made an executable using pyinstaller.
 
-Contact me if you are curious
-Cheers
+It was fun
